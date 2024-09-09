@@ -11,7 +11,7 @@
 
 int main(){
 
-    int nombre1 , nombre2 , nombre3 , pr1 = 1 , pr2 = 2 , pr3 = 3;
+    int nombre1 , nombre2 , nombre3 , pr1 = 2 , pr2 = 3 , pr3 = 5;
     float moyenne_prd;
 
     printf("Merci de Saisir Le Nombre 1 : ");
