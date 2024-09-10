@@ -24,7 +24,7 @@ int main(){
     printf("Merci de Saisir Le Nombre 3 : ");
     scanf("%d" , &nombre3);
 
-    moyenne_geom = pow((nombre1 * nombre2 * nombre3 ),(1/3));
+    moyenne_geom = pow((nombre1 * nombre2 * nombre3 ),(1.00/3.00));
 
     printf("Le moyenne geometrique est : %.2f" , moyenne_geom);
 
