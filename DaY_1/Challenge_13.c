@@ -31,6 +31,6 @@ int main()
     for(int i=Taille-1;i>=0;i--)
         printf("%d" , T[i]);
 
-    printf("\n%x ",hexa);
+    printf("\nLe Nombre en Hexadicemal est : %x ",hexa);
 
 }
