@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int main()
 {
     int n;
-   
     int Taille = 0 , i=0; 
 
     printf("Saisir un nombre : ");
