@@ -39,7 +39,7 @@ int main() {
                     printf("Entrez la description de la tache : ");
                     scanf(" %[^\n]s" , description);
 
-                    printf("Entrez la date d'achaance (AAAA-MM-JJ) : ");
+                    printf("Entrez la date (jj-mm-aa) : ");
                     scanf(" %[^\n]s" , date);
 
                     strcpy(titres[nombre_taches], titre);
