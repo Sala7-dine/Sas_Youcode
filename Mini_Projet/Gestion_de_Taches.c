@@ -14,7 +14,6 @@ int main() {
 
     int choix;
     do {
-
         printf("\n\nMenu:\n");
         printf("1. Ajouter une tache\n");
         printf("2. Supprimer une tache\n");
@@ -53,18 +52,22 @@ int main() {
                 printf("\nEntrez le titre de la tache a supprimer : ");
                 scanf(" %[^\n]s" , titre);
 
+                int existe = 0;
                 for (int i = 0; i < nombre_taches; i++) {
                     if (strcmp(titres[i], titre) == 0) {
-                        
+                        existe = 1;
                         for (int j = i; j < nombre_taches - 1; j++) {
                             strcpy(titres[j], titres[j + 1]);
                             strcpy(descriptions[j], descriptions[j + 1]);
                             strcpy(dates[j], dates[j + 1]);
                         }
                         nombre_taches--;
-                        printf("La tache a ete supprimee.\n", titre);
                     }
                 }
+
+                if(existe) printf("La tache a ete supprimee.\n");
+                else printf("La tache n'est pas exist");
+                
                 break;
             case 3:
                 // Aficher
