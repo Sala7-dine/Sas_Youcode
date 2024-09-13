@@ -4,15 +4,15 @@ int main(){
 
     int T[10] = {1,2,3,4,5,6,7,8,9,10}; 
 
-    int n , i , middle , left = 0 , right = 10; 
 
+    int n , i , middle , left = 0 , right = 10; 
 
     printf("Merci de Saisir un Nombre :");
     scanf("%d" , &n);
 
-    while(left < right){
+    while(left <= right){
 
-        middle = (left + right) / 2;
+        middle =  (left + right) / 2;
 
         if(T[middle] == n){
             printf("Le Nombre %d est Trouve." , T[middle]);

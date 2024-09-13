@@ -2,7 +2,7 @@
 
 int main(){
 
-    int n , i , moyenne , count = 0;
+    int n , i , count = 0;
 
     int somme = 0;
     
@@ -17,8 +17,8 @@ int main(){
         }
     }
 
-    moyenne = somme / count ;
+    float moyenne = (float)somme / (float)count ;
 
-    printf("%d" , moyenne);
+    printf("%.2f" , moyenne);
 
 }
