@@ -12,6 +12,4 @@ int main(){
         if(n % i == 0) printf("%d ", i);
     }
 
-
-
 }
